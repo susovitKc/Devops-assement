@@ -8,8 +8,7 @@
 According task1  I have setup 3  severs/VMs using Rocky Linux ISO `Rocky-10.2-x86_64-dvd1`
 
 ### Screenshot
-
-> Add Task 1 screenshot here.
+> ![vm](images/vm.png)
 
 ---
 
