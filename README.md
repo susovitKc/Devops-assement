@@ -15,7 +15,7 @@ According task1  I have setup 3  severs/VMs using Rocky Linux ISO `Rocky-10.2-x8
 # Task 2
 
 ## 2.1 Explanation
-Before creating rockeyserver 1 i have allocate resource according to task
+Before creating rockyserver1 I have allocate resource according to task
 
 ### Screenshot
 ![R1](images/R1.png)
