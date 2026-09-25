@@ -1,4 +1,4 @@
-# DevOps Assement Task
+# DevOps Assessment Task
 
 ---
 
