@@ -22,7 +22,7 @@ Before creating rockeyserver 1 i have allocate resource according to task
 ![R2](images/R2.png)
 
 ## 2.2 Explanation
-A dedicated Host-Only network connection was configured on  using NetworkManager. The `enp0s8` interface was assigned the static IP address  for all server 192.168.56.102/24`,192.168.56.103/24  ,192.168.56.104 /24 and named`hostonly\` . Confirming that the server was prepared to communicate with the other virtual machines through the isolated Host-Only network.
+A dedicated Host-Only network was configured using NetworkManager on all three servers. The enp0s8 interface was assigned static IP addresses 192.168.56.102/24, 192.168.56.103/24, and 192.168.56.104/24, enabling communication between the virtual machines through the isolated network.
 
 ### Screenshot
 
@@ -40,7 +40,7 @@ Mysql 9.7 LTS Community Server was installed on server 1 using the official MySQ
 > ![r5](images/r5.png)
 
 ### 3.1.2 Explanation
-A dedicated kine database and databaser user were created on the MySQL server for use by the k3s control plane external datastore. the Kine user was granted privileges only on the`kine\` database. The MySQL root account is not used by k3s.r6
+A dedicated kine database and databaser user were created on the MySQL server for use by the k3s control plane external datastore. The Kine user was granted privileges only on the`kine\` database. The MySQL root account is not used by k3s.r6
 
 ### Screenshot
 > ![r6](images/r6.png)
